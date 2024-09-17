@@ -1,0 +1,16 @@
+# Server settings
+[server]
+folderWatchBlacklist = []
+runOnSave = true
+
+# Theme settings
+[theme]
+base = "dark"  
+primaryColor = "#4b84ff"
+backgroundColor = "#2f2b37"
+secondaryBackgroundColor = "#4f67ea"
+textColor = "#ffffff"  
+font = "serif"  
+
+[client]
+toolbarMode = "developer"

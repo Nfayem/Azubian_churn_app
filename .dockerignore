@@ -1,0 +1,45 @@
+# Ignore Git and version control files
+.git
+.gitignore
+.gitattributes
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+
+# Ignore cloud storage sync files (Dropbox, Box, etc.)
+.dropbox/
+.box/
+*.dropbox.cache
+
+# Ignore local environment configuration files
+*.env
+.env.local
+.vscode/
+.idea/
+.venv/
+
+# Ignore documentation and markdown files
+*.md
+LICENSE
+README.md
+CONTRIBUTING.md
+CODE_OF_CONDUCT.md
+
+# Ignore utility files
+utils/commands.txt
+utils/covert_csv_to_excel.py
+utils/covert_excel_to_csv.py
+
+# Ignore miscellaneous files and OS generated files
+*.bak
+*.swp
+Thumbs.db
+.DS_Store
+*.bat
+CAP_Requirements
+run_commands.bat
